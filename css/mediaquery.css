@@ -1,0 +1,336 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    /* header start */
+    .menu ul li a{
+        font-size: 16px;
+    }
+    .t-btn:focus {
+        box-shadow: 0 0 0 0.1rem !important;
+    }
+    /* header end */
+    /* slider start */
+    .menu ul li a{
+        font-size: 18px;
+    }
+    /* header end */
+    /* slider start */
+    .slide-sec{
+        padding-bottom: 30px;
+    }
+    .slide-sec h1{
+        margin-top: 20px;
+    }
+    .slide-sec h2{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .slide-sec .banner-icon{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .c-title{
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .c-subtitle{
+        font-size: 18px;
+    }
+    .c-detail{
+        font-size: 15px;
+    }
+    .banner-icon ul li a{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    /* indicator */
+    .c-indicator{
+        bottom: -40px;
+    }
+    .c-indicator [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    /* slider end */
+    /* feature start */
+    .f-sec{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+   .f-single{
+       margin-top: 30px;
+       text-align: center;
+    }
+    .f-single h3{
+        margin-top: 8px;
+    }
+   .f-sec .c-subtitle{
+        font-size: 17px;
+    }
+    
+    /* feature end */
+    
+    /* footer start */
+    .footer-sec{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .footer-sec .c-subtitle {
+        font-size: 17px;
+    }
+    .f-form input{
+        height: 38px;
+    }
+    .footer-sec button{
+        height: 38px;
+        margin-top: 10px;
+    }
+    .social-icon ul li a{
+        height: 25px;
+        width: 25px;
+    }
+    .social-icon ul li a i{
+        font-size: 20px;
+    }
+    .footer-caption .social-icon{
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .footer-nav ul li a{
+        font-size: 13px;
+    }
+    .footer-sec .footer-nav{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-sec .f-nav{
+        border-bottom: .5px solid #ddd;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    /* footer end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start */
+    .menu ul li a{
+        font-size: 18px;
+    }
+    .t-btn:focus {
+        box-shadow: 0 0 0 0.1rem !important;
+    }
+    /* header end */
+    /* slider start */
+    .slide-sec{
+        padding-bottom: 60px;
+    }
+    .slide-sec h1{
+        margin-top: 40px;
+    }
+    .slide-sec h2{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .slide-sec .banner-icon{
+        margin-top: 30px;
+    }
+    .c-title{
+        font-family:PTSans-Bold  ;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .c-subtitle{
+        font-size: 20px;
+    }
+    .banner-icon ul li a{
+        font-size: 30px;
+        margin-left: 12px;
+    }
+    /* indicator */
+    .c-indicator{
+        bottom: -50px;
+    }
+    .c-indicator [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    /* slider end */
+    
+    /* feature start */
+    .f-sec{
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+   .f-single{
+       margin-top: 40px;
+       text-align: center;
+    }
+    .f-single h3{
+        margin-top: 10px;
+    }
+   .f-sec .c-subtitle{
+        font-size: 18px;
+    }
+    /* feature end */
+    /* footer start */
+    .footer-sec{
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+    .footer-sec .c-subtitle {
+        font-size: 18px;
+    }
+    .f-form input{
+        height: 40px;
+    }
+    .in-btn{
+        margin: auto;
+    }
+    .footer-sec button{
+        height: 40px;
+        margin-top: 15px;
+    }
+    .social-icon ul li a{
+        height: 30px;
+        width: 30px;
+    }
+    .social-icon ul li a i{
+        font-size: 25px;
+    }
+    .footer-caption .social-icon{
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .footer-sec .footer-nav{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-nav ul li a{
+        font-size: 14px;
+    }
+    .footer-sec .f-nav{
+        border-bottom: .5px solid #ddd;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    /* footer end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .menu ul li a{
+        float: right;
+        margin-right: 10% !important;
+    }
+    .t-btn:focus {
+        box-shadow: 0 0 0 0.1rem !important;
+    }
+    /* header end */
+    /* slider start */
+    .slide-sec{
+        padding-bottom: 60px;
+    }
+    .slide-sec h1{
+        margin-top: 40px;
+    }
+    .slide-sec h2{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .slider-sec p{
+        margin-bottom: 0;
+    }
+    
+    .banner-icon ul li a{
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    .c-indicator{
+        bottom: -50px;
+    }
+    .c-indicator [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    /* slider end */
+    /* feature start */
+    .f-sec{
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
+    .f-single{
+        margin-top: 50px;
+    }
+    .f-sec .c-subtitle{
+        font-size: 20px;
+    }
+    /* feature end */
+    /* footer start */
+    .footer-sec{
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
+    .footer-sec .c-subtitle {
+        font-size: 20px;
+    }
+    .f-form input{
+        height: 45px;
+    }
+    .footer-sec button{
+        height: 45px;
+    }
+    .social-icon ul li a{
+        height: 35px;
+        width: 35px;
+    }
+    .social-icon ul li a i{
+        font-size: 28px;
+    }
+    .footer-caption .social-icon{
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    
+    /* footer end */
+    
+    
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* slider start */
+    .banner-icon ul li a{
+        font-size: 45px;
+    }
+    /* slider end */
+    /* footer start */
+    .footer-nav ul li a{
+        font-size: 15px;
+    }
+    /* footer end */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* slider start */
+    
+    /* slider end */
+
+}
+
+/* XX-Large devices (larger desktops) */
+
+@media (max-width: 1400px) {
+
+}
